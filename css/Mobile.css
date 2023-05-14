@@ -1,0 +1,47 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .ban {
+    margin-left: -80px;
+  }
+  .cont {
+    margin-bottom: 5px;
+  }
+  #about {
+    margin-left: -20px;
+    width: 100%;
+  }
+  #job-info {
+    margin-left: 20px;
+    width: 92%;
+  }
+  #certificate {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .cer-1-1 {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .cer {
+    text-align: center;
+  }
+  .cer h1 {
+    text-align: left;
+  }
+  .team-1,
+  .timeline-1,
+  .goal-1,
+  .scope-1,
+  .primary-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .goal2,
+  .team2,
+  .timeline1,
+  .scope1 {
+    text-align: justify;
+  }
+}

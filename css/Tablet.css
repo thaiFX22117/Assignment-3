@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+  .brand {
+    display: none;
+  }
+  .cer-1 {
+    flex-direction: column;
+  }
+  .team-1,
+  .timeline-1,
+  .goal-1,
+  .scope-1,
+  .primary-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .goal2,
+  .team2,
+  .timeline1,
+  .scope1 {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 32px;
+}
+section > .container {
+  padding: 20px 0px;
+}
+/* Header */
+/* Banner */
+#banner img {
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.ban {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  text-shadow: 0 5px 0 grey;
+  text-align: center;
+
+  line-height: 10px;
+}
+.name {
+  font-size: 40px;
+}
+/* Navigation */
+nav {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-top: -60px;
+  height: 120px;
+}
+nav > * {
+  flex: 1;
+  height: 100%;
+  background-color: rgb(207, 207, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  font-size: 20px;
+  color: rgb(1, 91, 91);
+  text-decoration: none;
+}
+nav > *:hover {
+  background-color: aqua;
+  width: 100%;
+  font-weight: bold;
+}
+.item1 {
+  position: relative;
+}
+.test {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid rgb(221, 216, 216);
+  position: absolute;
+  top: -50px;
+  left: 15%;
+}
+
+/* end Header */
+/* Main */
+/* info-target */
+#about {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 50px;
+}
+.info-icon {
+  display: inline-block;
+  color: blue;
+}
+#personal-info {
+  padding-left: 4%;
+  background-color: rgb(165, 165, 231);
+  border-radius: 10px;
+}
+#target {
+  background-color: rgb(182, 124, 124);
+  padding-left: 4%;
+  border-radius: 10px;
+}
+
+/* exp - edu */
+.job {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+/* exp */
+.re1 {
+  display: inline-block;
+}
+.re2 {
+  background-color: rgb(124, 124, 230);
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+  color: azure;
+}
+.exp h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+
+.exp2 ul {
+  padding-left: 4%;
+}
+.exp {
+  background-color: rgb(205, 243, 168);
+  border-radius: 10px;
+}
+.exp1 {
+  padding-left: 8%;
+}
+/* timeline */
+.timeline::before {
+  position: absolute;
+  content: "\2022";
+  font-size: 1.5em;
+  color: blue;
+  left: 2px;
+  top: -3px;
+}
+/* edu */
+.exp2 {
+  position: relative;
+  padding-left: 4%;
+}
+
+.edu h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+.edu {
+  background-color: rgb(168, 222, 234);
+  border-radius: 10px;
+}
+.edu-1 {
+  padding-left: 8%;
+}
+/* timeline edu */
+.edu2 {
+  position: relative;
+  padding-left: 4%;
+}
+
+/* Act */
+.act {
+  background-color: rgb(176, 182, 230);
+  border-radius: 10px;
+}
+
+.act h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+/* timeline act */
+.act2 {
+  position: relative;
+  padding-left: 4%;
+}
+
+/* Hobbit */
+.hob {
+  background-color: rgb(230, 213, 176);
+  border-radius: 10px;
+}
+
+.hob1 {
+  text-align: center;
+}
+.icon1 {
+  color: rgb(2, 98, 98);
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.icon1 i {
+  margin-top: 15px;
+}
+.hob1 {
+  display: inline-block;
+  padding-left: 8%;
+}
+.hob h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+/* language */
+.lang {
+  background-color: rgb(209, 230, 176);
+  border-radius: 10px;
+}
+.lang-1 {
+  padding-left: 8%;
+}
+.lang h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+/* skill */
+.skill {
+  background-color: rgb(176, 230, 186);
+  border-radius: 10px;
+}
+.skill-1 {
+  padding-left: 8%;
+}
+.skill h1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding-left: 8%;
+}
+.exp-bar {
+  display: inline-block;
+  width: 50px;
+  height: 3px;
+  background-color: blanchedalmond;
+}
+.fill {
+  background-color: rgb(81, 45, 213);
+}
+/* certificate */
+.cer {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 40px;
+  background-color: rgb(244, 233, 219);
+  padding-left: 1%;
+}
+
+.cer-2 {
+  border-bottom: 2px solid #d6c08d;
+}
+.cer-1 {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cer-1-1 {
+  border-right: 2px solid #d6c08d;
+}
+/* Project */
+#project h1 {
+  padding-left: 1%;
+}
+.pro a {
+  text-decoration: none;
+  color: black;
+}
+.pro {
+  display: flex;
+  gap: 20px;
+
+  padding-left: 1%;
+}
+.pro > * {
+  flex: 1;
+}
+.pro-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding-left: 4%;
+}
+.pro-item2 {
+  border-radius: 5px;
+  background-color: rgb(116, 116, 225);
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.pro-jd1 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  line-height: 25px;
+  border-bottom: 2px solid rgb(248, 140, 9);
+}
+.CV1 {
+  background-color: rgb(105, 207, 173);
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 4%;
+}
+.pro-item {
+  background-color: rgb(200, 228, 144);
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.pro-jd {
+  width: auto;
+  background-color: rgb(235, 164, 77);
+  padding-left: 2%;
+  text-align: justify;
+}
+/* contact */
+.cont {
+  display: flex;
+}
+.cont1 {
+  flex: 1;
+  background-color: beige;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont1 a {
+  color: rgb(73, 73, 233);
+  font-size: 20px;
+  text-decoration: none;
+}
+.cont1 a:hover {
+  color: rgb(73, 73, 233);
+  font-size: 22px;
+  font-weight: bold;
+}
+/* ASM 3 */
+/* Ản thông tin cá nhân */
+.info {
+  display: none;
+}
+#error {
+  color: red;
+  font-weight: bold;
+}
+/* Ản thông tin nghê nghiệp */
+.exp1,
+.edu-1,
+.hob-2,
+.lang-1,
+.skill-2,
+.act2 {
+  display: none;
+}
